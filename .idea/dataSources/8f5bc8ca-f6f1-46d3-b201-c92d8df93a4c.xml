@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="test@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="test">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="bos_ssh"/>
+    <schema id="4" parent="1" name="crm_webservice"/>
+    <schema id="5" parent="1" name="day04"/>
+    <schema id="6" parent="1" name="day05"/>
+    <schema id="7" parent="1" name="e3mall-ssm"/>
+    <schema id="8" parent="1" name="hibernate"/>
+    <schema id="9" parent="1" name="information_schema"/>
+    <schema id="10" parent="1" name="maven_ssh"/>
+    <schema id="11" parent="1" name="mybatis"/>
+    <schema id="12" parent="1" name="mysql"/>
+    <schema id="13" parent="1" name="performance_schema"/>
+    <schema id="14" parent="1" name="pinyougoudb"/>
+    <schema id="15" parent="1" name="shop"/>
+    <schema id="16" parent="1" name="spark-pro"/>
+    <schema id="17" parent="1" name="springmvc"/>
+    <schema id="18" parent="1" name="ssh_crm"/>
+    <schema id="19" parent="1" name="ssm_crm"/>
+    <schema id="20" parent="1" name="travel"/>
+    <table id="21" parent="2" name="city"/>
+    <table id="22" parent="2" name="ip-country"/>
+    <column id="23" parent="21" name="ID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="24" parent="21" name="NAME">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="25" parent="21" name="CITY_TYPE">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="26" parent="21" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="27" parent="22" name="ID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="28" parent="22" name="city">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="22" name="provice">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="22" name="count">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="31" parent="22" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

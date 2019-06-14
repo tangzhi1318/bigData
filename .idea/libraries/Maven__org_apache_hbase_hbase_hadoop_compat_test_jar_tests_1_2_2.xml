@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.hbase:hbase-hadoop-compat:test-jar:tests:1.2.2">
+    <CLASSES>
+      <root url="jar://D:/Downloads/anzhuangbao/org/apache/hbase/hbase-hadoop-compat/1.2.2/hbase-hadoop-compat-1.2.2-tests.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/Downloads/anzhuangbao/org/apache/hbase/hbase-hadoop-compat/1.2.2/hbase-hadoop-compat-1.2.2-test-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/Downloads/anzhuangbao/org/apache/hbase/hbase-hadoop-compat/1.2.2/hbase-hadoop-compat-1.2.2-test-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
