@@ -10,7 +10,7 @@
         <encoding>UTF-8</encoding>
         <scala.version>2.10.6</scala.version>
         <spark.version>1.6.1</spark.version>
-        <hadoop.version>2.6.4</hadoop.version>
+        <hadoop.version>2.7.0</hadoop.version>
         <spring.version>4.3.2.RELEASE</spring.version>
         <mybatis.version>3.2.8</mybatis.version>
         <slf4j.version>1.7.5</slf4j.version>
